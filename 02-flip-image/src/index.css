@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #fafafa;
+  width: 700px;
+  margin: auto;
+}
+section {
+  margin-top: 30px;
+}
+h1 {
+  color: gray;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.btnsection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #0984e3;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #0984e3;
+  border-radius: 5px;
+}
+select {
+  background: #b2bec3;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  width: 150px;
+  border: gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: rgb(77, 76, 76);
+  font-weight: 600;
+}
+.todolist {
+  background-color: #dfe6e9;
+  border-radius: 10px;
+  padding: 5px;
+}
+.listItem {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+  accent-color: #0984e3;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
